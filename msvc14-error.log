@@ -1,0 +1,817 @@
+C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build>devenv RELIC.sln /build
+
+Microsoft Visual Studio 2015 Version 14.0.25123.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: ZERO_CHECK, Configuration: Debug x64 ------
+1>  Checking Build System
+1>  CMake does not need to re-run because C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic-build/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic-build/src/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic-build/test/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic-build/bench/CMakeFiles/generate.stamp is up-to-date.
+2>------ Build started: Project: arith_objs, Configuration: Debug x64 ------
+3>------ Skipped Build: Project: RUN_TESTS, Configuration: Debug x64 ------
+3>Project not selected to build for this solution configuration
+2>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/src/CMakeLists.txt
+2>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\src\CMakeFiles\generate.stamp is up-to-date.
+4>------ Build started: Project: relic_s, Configuration: Debug x64 ------
+5>------ Build started: Project: relic, Configuration: Debug x64 ------
+4>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/src/CMakeLists.txt
+4>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\src\CMakeFiles\generate.stamp is up-to-date.
+4>cl : Command line warning D9002: ignoring unknown option '-pipe'
+4>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+4>cl : Command line warning D9002: ignoring unknown option '-m64'
+4>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+4>cl : Command line warning D9002: ignoring unknown option '-O0'
+4>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+4>  relic_err.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_core.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_conf.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_pool.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_util.c
+5>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/src/CMakeLists.txt
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\src\CMakeFiles\generate.stamp is up-to-date.
+4>  relic_arch_x64.c
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_rand_core.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_rand_hash.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_test.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>cl : Command line warning D9002: ignoring unknown option '-pipe'
+5>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+5>cl : Command line warning D9002: ignoring unknown option '-m64'
+4>  relic_bench.c
+5>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+5>cl : Command line warning D9002: ignoring unknown option '-O0'
+5>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+5>  relic_err.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_add.c
+5>  relic_core.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_cmp.c
+5>  relic_conf.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_pool.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_div.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_factor.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_arch_x64.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_gcd.c
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_rand_core.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_lcm.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_rand_hash.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_mem.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_test.c
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\bn\relic_bn_mem.c(33): warning C4668: 'ALLOC' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\bn\relic_bn_mem.c(33): warning C4668: 'AUTO' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bench.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_mod.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_add.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_cmp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_mxp.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_div.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  Generating Code...
+4>  Compiling...
+4>  relic_bn_prime.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_factor.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_rec.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_gcd.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_shift.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_lcm.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_smb.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_mem.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_sqr.c
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\bn\relic_bn_mem.c(33): warning C4668: 'ALLOC' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\bn\relic_bn_mem.c(33): warning C4668: 'AUTO' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_mod.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_srt.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_util.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_mxp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_dv_mem.c
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\dv\relic_dv_mem.c(35): warning C4668: 'ALLOC' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\dv\relic_dv_mem.c(35): warning C4668: 'AUTO' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  Generating Code...
+5>  Compiling...
+5>  relic_bn_prime.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_dv_util.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_rec.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_add.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_shift.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_cmp.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_smb.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_exp.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_inv.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_srt.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_param.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_dv_mem.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_prime.c
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\dv\relic_dv_mem.c(35): warning C4668: 'ALLOC' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\dv\relic_dv_mem.c(35): warning C4668: 'AUTO' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_dv_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_rdc.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_add.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_shift.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_cmp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_sqr.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_exp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_srt.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_inv.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  Generating Code...
+4>  Compiling...
+4>  relic_fp_util.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp12_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_param.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp12_sqr.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_prime.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp18_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_rdc.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp18_sqr.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_shift.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp2_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp2_sqr.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_srt.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp3_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  Generating Code...
+5>  Compiling...
+5>  relic_fp_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp3_sqr.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp12_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp6_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp12_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp6_sqr.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp18_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_add.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp18_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_cmp.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp2_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_exp.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp2_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_frb.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp3_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_inv.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp3_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_pck.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp6_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_rdc.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp6_sqr.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_srt.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_add.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_util.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_cmp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  Generating Code...
+4>  Compiling...
+4>  relic_ep_add.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_exp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_curve.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_frb.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_dbl.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_inv.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_map.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_pck.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_rdc.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_mul_fix.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_srt.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_mul_sim.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_neg.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  Generating Code...
+5>  Compiling...
+5>  relic_ep_add.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_norm.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_curve.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_param.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_dbl.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_pck.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_map.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep_util.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_add.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_mul_fix.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_curve.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_mul_sim.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_dbl.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_neg.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_frb.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_norm.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_map.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_param.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_mul.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_pck.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_mul_fix.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_mul_sim.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_add.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  Generating Code...
+4>  Compiling...
+4>  relic_ep2_neg.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_curve.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_norm.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_dbl.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_pck.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_frb.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_ep2_util.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_map.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_pp_add.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_mul.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_pp_dbl.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_mul_fix.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_pp_exp.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_mul_sim.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_pp_map.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  Generating Code...
+5>  Compiling...
+5>  relic_ep2_neg.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_pp_norm.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_norm.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  blake2s-ref.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_pck.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(72): warning C4324: '__blake2s_state': structure was padded due to alignment specifier
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(72): warning C4820: '__blake2s_state': '7' bytes padding added after data member 'last_node'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(97): warning C4324: '__blake2b_state': structure was padded due to alignment specifier
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(97): warning C4820: '__blake2b_state': '23' bytes padding added after data member 'last_node'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(105): warning C4820: '__blake2sp_state': '56' bytes padding added after data member 'buflen'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(113): warning C4820: '__blake2bp_state': '56' bytes padding added after data member 'buflen'
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\blake2s-ref.c(43): warning C4245: '=': conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\blake2s-ref.c(58): warning C4245: '=': conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+4>  relic_md_blake2s.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_ep2_util.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_hmac.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_pp_add.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_kdf.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_pp_dbl.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_mgf.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_pp_exp.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_sha1.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_pp_map.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_sha224.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_pp_norm.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_sha256.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  blake2s-ref.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_md_sha384.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(72): warning C4324: '__blake2s_state': structure was padded due to alignment specifier
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(72): warning C4820: '__blake2s_state': '7' bytes padding added after data member 'last_node'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(97): warning C4324: '__blake2b_state': structure was padded due to alignment specifier
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(97): warning C4820: '__blake2b_state': '23' bytes padding added after data member 'last_node'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(105): warning C4820: '__blake2sp_state': '56' bytes padding added after data member 'buflen'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\blake2.h(113): warning C4820: '__blake2bp_state': '56' bytes padding added after data member 'buflen'
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\blake2s-ref.c(43): warning C4245: '=': conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\blake2s-ref.c(58): warning C4245: '=': conversion from 'int' to 'uint32_t', signed/unsigned mismatch
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_md_blake2s.c
+4>  relic_md_sha512.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_md_hmac.c
+4>  sha1.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(27): warning C4668: 'WORD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(124): warning C4820: 'SHA1Context': '2' bytes padding added after data member 'Message_Block'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(142): warning C4820: 'SHA256Context': '2' bytes padding added after data member 'Message_Block'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(162): warning C4820: 'SHA512Context': '2' bytes padding added after data member 'Message_Block'
+4>  Generating Code...
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_md_kdf.c
+4>  Compiling...
+4>  sha224-256.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(27): warning C4668: 'WORD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(124): warning C4820: 'SHA1Context': '2' bytes padding added after data member 'Message_Block'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(142): warning C4820: 'SHA256Context': '2' bytes padding added after data member 'Message_Block'
+5>  relic_md_mgf.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(162): warning C4820: 'SHA512Context': '2' bytes padding added after data member 'Message_Block'
+4>  sha384-512.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(27): warning C4668: 'WORD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(124): warning C4820: 'SHA1Context': '2' bytes padding added after data member 'Message_Block'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(142): warning C4820: 'SHA256Context': '2' bytes padding added after data member 'Message_Block'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(162): warning C4820: 'SHA512Context': '2' bytes padding added after data member 'Message_Block'
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(785): warning C4293: '>>': shift count negative or too big, undefined behavior
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(785): warning C4293: '<<': shift count negative or too big, undefined behavior
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(787): warning C4293: '>>': shift count negative or too big, undefined behavior
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(787): warning C4293: '<<': shift count negative or too big, undefined behavior
+5>  relic_md_sha1.c
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(813): warning C4293: '>>': shift count negative or too big, undefined behavior
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(813): warning C4293: '<<': shift count negative or too big, undefined behavior
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(822): warning C4293: '>>': shift count negative or too big, undefined behavior
+4>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(822): warning C4293: '<<': shift count negative or too big, undefined behavior
+4>  relic_bn_add_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_cmp_low.c
+5>  relic_md_sha224.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_div_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_md_sha256.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_mod_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_mul_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_md_sha384.c
+4>  relic_bn_shift_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_bn_sqr_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_add_low.c
+5>  relic_md_sha512.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_cmp_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  sha1.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(27): warning C4668: 'WORD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(124): warning C4820: 'SHA1Context': '2' bytes padding added after data member 'Message_Block'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(142): warning C4820: 'SHA256Context': '2' bytes padding added after data member 'Message_Block'
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(162): warning C4820: 'SHA512Context': '2' bytes padding added after data member 'Message_Block'
+4>  relic_fp_inv_low.c
+5>  Generating Code...
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_mul_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fp_rdc_low.c
+5>  Compiling...
+5>  sha224-256.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(27): warning C4668: 'WORD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(124): warning C4820: 'SHA1Context': '2' bytes padding added after data member 'Message_Block'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(142): warning C4820: 'SHA256Context': '2' bytes padding added after data member 'Message_Block'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(162): warning C4820: 'SHA512Context': '2' bytes padding added after data member 'Message_Block'
+5>  sha384-512.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(27): warning C4668: 'WORD' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(124): warning C4820: 'SHA1Context': '2' bytes padding added after data member 'Message_Block'
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(142): warning C4820: 'SHA256Context': '2' bytes padding added after data member 'Message_Block'
+4>  relic_fp_shift_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\src\md\sha.h(162): warning C4820: 'SHA512Context': '2' bytes padding added after data member 'Message_Block'
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(785): warning C4293: '>>': shift count negative or too big, undefined behavior
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(785): warning C4293: '<<': shift count negative or too big, undefined behavior
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(787): warning C4293: '>>': shift count negative or too big, undefined behavior
+4>  relic_fp_sqr_low.c
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(787): warning C4293: '<<': shift count negative or too big, undefined behavior
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(813): warning C4293: '>>': shift count negative or too big, undefined behavior
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(813): warning C4293: '<<': shift count negative or too big, undefined behavior
+4>  relic_fpx_add_low.c
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(822): warning C4293: '>>': shift count negative or too big, undefined behavior
+5>C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic\src\md\sha384-512.c(822): warning C4293: '<<': shift count negative or too big, undefined behavior
+5>  relic_bn_add_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_cmp_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_mul_low.c
+5>  relic_bn_div_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  relic_fpx_rdc_low.c
+5>  relic_bn_mod_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_mul_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_shift_low.c
+4>  relic_fpx_sqr_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_bn_sqr_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_add_low.c
+4>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+4>  Generating Code...
+5>  relic_fp_cmp_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_inv_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_mul_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_rdc_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_shift_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fp_sqr_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_add_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_mul_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_rdc_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  relic_fpx_sqr_low.c
+5>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+5>  Generating Code...
+6>------ Build started: Project: bench_bn, Configuration: Debug x64 ------
+7>------ Build started: Project: bench_dv, Configuration: Debug x64 ------
+8>------ Build started: Project: bench_ep, Configuration: Debug x64 ------
+9>------ Build started: Project: bench_epx, Configuration: Debug x64 ------
+10>------ Build started: Project: bench_err, Configuration: Debug x64 ------
+11>------ Build started: Project: bench_fp, Configuration: Debug x64 ------
+12>------ Build started: Project: bench_fpx, Configuration: Debug x64 ------
+13>------ Build started: Project: bench_pp, Configuration: Debug x64 ------
+7>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+6>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+7>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+6>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+7>cl : Command line warning D9002: ignoring unknown option '-pipe'
+7>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+7>cl : Command line warning D9002: ignoring unknown option '-m64'
+7>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+7>cl : Command line warning D9002: ignoring unknown option '-O0'
+7>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+7>  bench_dv.c
+6>cl : Command line warning D9002: ignoring unknown option '-pipe'
+10>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+6>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+6>cl : Command line warning D9002: ignoring unknown option '-m64'
+6>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+6>cl : Command line warning D9002: ignoring unknown option '-O0'
+10>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+6>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+6>  bench_bn.c
+6>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+7>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+10>cl : Command line warning D9002: ignoring unknown option '-pipe'
+10>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+10>cl : Command line warning D9002: ignoring unknown option '-m64'
+10>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+10>cl : Command line warning D9002: ignoring unknown option '-O0'
+10>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+10>  bench_err.c
+10>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+8>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+8>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+14>------ Build started: Project: bench_rand, Configuration: Debug x64 ------
+15>------ Build started: Project: test_bn, Configuration: Debug x64 ------
+11>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+8>cl : Command line warning D9002: ignoring unknown option '-pipe'
+8>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+8>cl : Command line warning D9002: ignoring unknown option '-m64'
+8>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+11>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+8>cl : Command line warning D9002: ignoring unknown option '-O0'
+8>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+8>  bench_ep.c
+14>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+8>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+15>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+9>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+14>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+15>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+9>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+11>cl : Command line warning D9002: ignoring unknown option '-pipe'
+11>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+11>cl : Command line warning D9002: ignoring unknown option '-m64'
+11>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+11>cl : Command line warning D9002: ignoring unknown option '-O0'
+11>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+11>  bench_fp.c
+12>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+12>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+14>cl : Command line warning D9002: ignoring unknown option '-pipe'
+14>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+14>cl : Command line warning D9002: ignoring unknown option '-m64'
+14>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+14>cl : Command line warning D9002: ignoring unknown option '-O0'
+14>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+11>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+14>  bench_rand.c
+15>cl : Command line warning D9002: ignoring unknown option '-pipe'
+9>cl : Command line warning D9002: ignoring unknown option '-pipe'
+15>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+9>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+15>cl : Command line warning D9002: ignoring unknown option '-m64'
+13>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/bench/CMakeLists.txt
+9>cl : Command line warning D9002: ignoring unknown option '-m64'
+15>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+9>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+13>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\bench\CMakeFiles\generate.stamp is up-to-date.
+15>cl : Command line warning D9002: ignoring unknown option '-O0'
+9>cl : Command line warning D9002: ignoring unknown option '-O0'
+15>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+9>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+15>  test_bn.c
+14>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+9>  bench_epx.c
+15>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+9>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+12>cl : Command line warning D9002: ignoring unknown option '-pipe'
+12>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+12>cl : Command line warning D9002: ignoring unknown option '-m64'
+12>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+12>cl : Command line warning D9002: ignoring unknown option '-O0'
+12>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+13>cl : Command line warning D9002: ignoring unknown option '-pipe'
+12>  bench_fpx.c
+13>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+12>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+13>cl : Command line warning D9002: ignoring unknown option '-m64'
+16>------ Build started: Project: test_core, Configuration: Debug x64 ------
+13>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+13>cl : Command line warning D9002: ignoring unknown option '-O0'
+13>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+13>  bench_pp.c
+13>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+17>------ Build started: Project: test_dv, Configuration: Debug x64 ------
+18>------ Build started: Project: test_ep, Configuration: Debug x64 ------
+19>------ Build started: Project: test_epx, Configuration: Debug x64 ------
+20>------ Build started: Project: test_err, Configuration: Debug x64 ------
+21>------ Build started: Project: test_fp, Configuration: Debug x64 ------
+22>------ Build started: Project: test_fpx, Configuration: Debug x64 ------
+23>------ Build started: Project: test_md, Configuration: Debug x64 ------
+16>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+17>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+16>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+17>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+20>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+22>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+20>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+18>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+19>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+22>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+19>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+21>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+18>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+21>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+20>cl : Command line warning D9002: ignoring unknown option '-pipe'
+20>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+20>cl : Command line warning D9002: ignoring unknown option '-m64'
+20>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+20>cl : Command line warning D9002: ignoring unknown option '-O0'
+20>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+20>  test_err.c
+16>cl : Command line warning D9002: ignoring unknown option '-pipe'
+16>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+16>cl : Command line warning D9002: ignoring unknown option '-m64'
+17>cl : Command line warning D9002: ignoring unknown option '-pipe'
+16>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+17>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+16>cl : Command line warning D9002: ignoring unknown option '-O0'
+17>cl : Command line warning D9002: ignoring unknown option '-m64'
+16>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+17>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+16>  test_core.c
+22>cl : Command line warning D9002: ignoring unknown option '-pipe'
+21>cl : Command line warning D9002: ignoring unknown option '-pipe'
+17>cl : Command line warning D9002: ignoring unknown option '-O0'
+22>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+21>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+17>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+22>cl : Command line warning D9002: ignoring unknown option '-m64'
+19>cl : Command line warning D9002: ignoring unknown option '-pipe'
+21>cl : Command line warning D9002: ignoring unknown option '-m64'
+17>  test_dv.c
+22>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+20>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+19>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+21>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+18>cl : Command line warning D9002: ignoring unknown option '-pipe'
+16>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+17>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+22>cl : Command line warning D9002: ignoring unknown option '-O0'
+19>cl : Command line warning D9002: ignoring unknown option '-m64'
+21>cl : Command line warning D9002: ignoring unknown option '-O0'
+18>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+22>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+19>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+21>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+18>cl : Command line warning D9002: ignoring unknown option '-m64'
+22>  test_fpx.c
+19>cl : Command line warning D9002: ignoring unknown option '-O0'
+21>  test_fp.c
+18>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+19>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+18>cl : Command line warning D9002: ignoring unknown option '-O0'
+21>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+22>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+19>  test_epx.c
+18>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+18>  test_ep.c
+19>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+24>------ Build started: Project: test_pp, Configuration: Debug x64 ------
+18>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+25>------ Build started: Project: test_rand, Configuration: Debug x64 ------
+25>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+24>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+25>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+25>cl : Command line warning D9002: ignoring unknown option '-pipe'
+25>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+25>cl : Command line warning D9002: ignoring unknown option '-m64'
+25>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+25>cl : Command line warning D9002: ignoring unknown option '-O0'
+25>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+25>  test_rand.c
+25>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+23>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/test/CMakeLists.txt
+23>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+23>cl : Command line warning D9002: ignoring unknown option '-pipe'
+23>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+23>cl : Command line warning D9002: ignoring unknown option '-m64'
+23>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+23>cl : Command line warning D9002: ignoring unknown option '-O0'
+23>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+23>  test_md.c
+23>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+24>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\test\CMakeFiles\generate.stamp is up-to-date.
+24>cl : Command line warning D9002: ignoring unknown option '-pipe'
+24>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+24>cl : Command line warning D9002: ignoring unknown option '-m64'
+24>cl : Command line warning D9002: ignoring unknown option '-ggdb'
+24>cl : Command line warning D9002: ignoring unknown option '-O0'
+24>cl : Command line warning D9002: ignoring unknown option '-fno-omit-frame-pointer'
+24>  test_pp.c
+24>c:\users\brian\projects\node-anonize2-relic\anonize2\relic\include\relic_types.h(114): fatal error C1189: #error:  "Easy backend in 64-bit mode supported only in GCC compiler."
+26>------ Build started: Project: ALL_BUILD, Configuration: Debug x64 ------
+26>  Building Custom Rule C:/Users/Brian/Projects/node-anonize2-relic/anonize2/relic/CMakeLists.txt
+26>  CMake does not need to re-run because C:\Users\Brian\Projects\node-anonize2-relic\anonize2\relic-build\CMakeFiles\generate.stamp is up-to-date.
+27>------ Skipped Build: Project: INSTALL, Configuration: Debug x64 ------
+27>Project not selected to build for this solution configuration
+========== Build: 3 succeeded, 22 failed, 0 up-to-date, 2 skipped ==========
